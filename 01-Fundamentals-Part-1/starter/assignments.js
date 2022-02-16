@@ -58,3 +58,28 @@ if (language === 'English' && population < 50 && !isIsland) {
 } else {
 	console.log(`${country} does not meet your criteria.`);
 }
+
+// Assignment 10
+switch(language) {
+    case 'Chinese':
+    case 'Mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'Spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'English':
+        console.log('3rd place');
+        break;
+    case 'Hindi':
+        console.log('Number 4');
+        break;
+    case 'Arabic':
+        console.log('5th most spoken language');
+        break;
+    defaul:
+        console.log('Great language too :D'); 
+}
+
+// Assignment 11
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} the average.`);
